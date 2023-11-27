@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter';
+import CounterSizeGenerator from './components/CounterSizeGenerator';
+import CounterGroup from './components/CounterGroup';
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
         >
           Learn React
         </a>
+        <CounterSizeGenerator />
+        <CounterGroup><Counter /></CounterGroup>
       </header>
     </div>
   );
